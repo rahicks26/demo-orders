@@ -122,7 +122,7 @@ And finish up by splitting the `Program.fs` file into two files. One to handle H
 
 Let update `Program.fs` to look like:
 
-```
+```fsharp
 module Demo.Orders.API.App
 
 open System
@@ -184,7 +184,7 @@ let main args =
     0
 ```
 Then we add `Http.Root.fs` to the `{Name}.API` and set it to:
-```
+```fsharp
 module Demo.Orders.API.Http.Root
 
 open System
