@@ -4,6 +4,8 @@ NUGET
       FSharp.Core (>= 4.6) - restriction: || (>= net461) (>= netstandard2.0)
       Mono.Cecil (>= 0.11.3) - restriction: || (>= net461) (>= netstandard2.0)
     FSharp.Core (6.0.1)
+    FsToolkit.ErrorHandling (2.12)
+      FSharp.Core (>= 4.7.2) - restriction: >= netstandard2.0
     Giraffe (5.0.0-rc-6)
       FSharp.Core (>= 5.0) - restriction: >= net5.0
       Giraffe.ViewEngine (>= 1.3) - restriction: >= net5.0

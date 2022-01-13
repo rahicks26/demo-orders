@@ -6,3 +6,4 @@ nuget Giraffe 5.0.0-rc-6 prerelease
 nuget Microsoft.NET.Test.Sdk >= 16.0
 nuget Ply >= 0.3.0
 nuget YoloDev.Expecto.TestSdk
+nuget FsToolkit.ErrorHandling
