@@ -1,0 +1,23 @@
+root = true
+indent_size=4
+max_line_length=120
+
+[*.fs]
+fsharp_space_before_uppercase_invocation=true
+fsharp_space_before_member=true
+fsharp_space_before_colon=true
+fsharp_multiline_block_brackets_on_same_column=true
+fsharp_newline_between_type_definition_and_members=true
+fsharp_keep_if_then_in_same_line=true
+fsharp_align_function_signature_to_indentation=true
+fsharp_alternative_long_member_definitions=true
+fsharp_disable_elmish_syntax=true
+fsharp_multi_line_lambda_closing_newline=true
+
+# Customizations on top of G-Research
+fsharp_max_value_binding_width=80
+fsharp_max_function_binding_width=80
+fsharp_max_if_then_else_short_width=60
+fsharp_max_infix_operator_expression=80
+fsharp_max_record_width=60
+fsharp_max_array_or_list_width=60

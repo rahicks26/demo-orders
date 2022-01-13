@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Shared\Aggregate.fs" />
+    <Compile Include="Shared\Validation.fs" />
+    <Compile Include="Shared\Primitives.fs" />
+    <None Include="Orders\docs\Orders.md" />
+    <Compile Include="Orders\Orders.Public.fs" />
+    <Compile Include="Orders\Orders.Primitives.fs" />
+    <Compile Include="Orders\Orders.Model.fs" />
+    <Compile Include="Orders\Orders.Handler.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
